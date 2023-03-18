@@ -11,12 +11,10 @@ body{
     width: auto;
 }
 
-#head1{
-    background-color: rgb(225, 182, 28)
-}
 
-#contact{
+#head1{
     background-color: aqua;
+    width: 100%;
 }
 
 #ol_list{
