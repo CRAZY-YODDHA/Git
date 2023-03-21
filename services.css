@@ -13,10 +13,10 @@ body{
 
 
 #head1{
-    background-color: aqua;
-    padding: 5px;
+    background-color: rgb(241, 133, 255);
     font-size: 40px;
     margin-top: 0px;
+    padding: 5px;
 }
 
 #ol_list{
@@ -29,6 +29,6 @@ body{
     text-decoration: none;
     padding: 15px;
     background-color: rgba(127, 104, 71, 0.315);
-    color: rgb(34, 0, 0);
+    color: rgb(2, 0, 0);
     font-size: large;
 }
