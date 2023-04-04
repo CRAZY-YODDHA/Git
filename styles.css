@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 body{
-    background-color: bisque;
+    background-color: hsl(212, 45%, 89%);
     text-align: center;
     color: black;
-    font-family: 'Bebas Neue', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Outfit';
 }
 
 #navbar{
@@ -10,7 +12,6 @@ body{
     justify-content: center;
     width: auto;
 }
-
 
 #head1{
     background-color: aqua;
@@ -31,4 +32,38 @@ body{
     background-color: rgba(127, 104, 71, 0.315);
     color: rgb(34, 0, 0);
     font-size: large;
+}
+
+#overall{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    border-radius: 20px;
+}
+
+#img{
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 15px;
+}
+#txt1{
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+#txt2{
+    margin-top: 5px;
+    color: hsl(220, 15%, 55%);
+    width: 80%;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
